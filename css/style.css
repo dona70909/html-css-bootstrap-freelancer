@@ -1,3 +1,41 @@
 .my-grey{
     background-color: grey;
 }
+
+.my-green{
+    background-color: green;
+    height: 400px;
+}
+
+.my-red{
+    background-color: #ba4b63;
+    
+}
+
+.my-ciano{
+    background-color: #1ea4b6;
+}
+
+.my-light-blue{
+    background-color: #1c83c1
+    ;
+}
+
+.my-blue{
+    background-color: #0e38b5;
+}
+
+
+.my-pink{
+    background-color: #ccb2a3;
+}
+
+.my-black{
+    background-color: black;
+}
+
+.my-small-box-height{
+    height: 100px;
+}
+
+
