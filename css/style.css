@@ -1,5 +1,5 @@
-.my-grey{
-    background-color: grey;
+.my-dark-blue{
+    background-color: #3a546d
 }
 
 .my-green{
@@ -32,6 +32,10 @@
 
 .my-black{
     background-color: black;
+}
+
+.my-ftr-btm-col{
+    background-color: #2c3e50;
 }
 
 .my-small-box-height{
