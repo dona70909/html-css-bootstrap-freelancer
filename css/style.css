@@ -1,3 +1,24 @@
+header{
+    color: white;
+    height: 2.5rem;
+    padding: .5rem 0;
+}
+
+.my-header-title{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+
+.my-hd-link{
+    color: white;
+    text-decoration: none;
+}
+
+.my-hd-link:hover{
+    color: white;
+}
+
 .my-dark-blue{
     background-color: #3a546d
 }
