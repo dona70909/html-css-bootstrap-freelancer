@@ -15,50 +15,52 @@
     <title>Bootstrap freelancer </title>
 </head>
 <body>
-    <header class="my-dark-blue">
+    <!-- Header + bootstrap's navbar -->
+    <header class="my-dark-blue ">
         <nav class="navbar navbar-expand-sm navbar-dark my-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand " href="#">Bootstrap</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
                 </button>
-                <div class="clearfix">
-                    <div class="collapse navbar-collapse float-left" id="navbarSupportedContent ">
-                        <ul class="navbar-nav me-auto mb-lg-0 ">
-                            <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="#">About</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-lg-0 float-left">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
     
     <!-- jumbotron green -->
-    <section class="jumbotron py-4 px-2 px-md-6 px-lg-8">
+    <section class="jumbotron py-4 px-2 px-md-6 px-lg-8 text-white ">
         <div class="container container-md container-lg">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="d-flex flex-column align-items-center">
                         <!-- svg img-->
                         <object class="my-user-svg" data="img/avatar.svg" type=""></object>
-                        <h1 class="my-sml-title text-uppercase text-center">Start bootstrap</h1>
-                        <div class="">
-                            <i class="bi bi-star"></i>
+                        <h1 class="text-uppercase text-center fw-bold">Start bootstrap</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="border-bottom my-width mx-2"></div>
+                            <i class="bi bi-star "></i>
+                            <div class="border-bottom  my-width mx-2"></div>
                         </div>
                         <!-- description center  -->
                         <div>
-                            <h2 class="text-uppercase my-sml-h2 text-center">
+                            <p class="text-uppercase text-center fw-bold">
                                 Graphic artist - web designer - illustrator
-                            </h2>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +70,7 @@
     
     <main>
         <!-- portfolio -->
-        <section class="portfolio px-md-2 px-lg-4">
+        <section class="portfolio px-md-2 px-lg-4 ">
             <div class="container container-md container-lg">
                 <div class="text-center">
                     <h1 class="text-uppercase">Portfolio</h1>
