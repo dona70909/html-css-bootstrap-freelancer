@@ -21,12 +21,17 @@
     width: 80px;
     border-bottom: 3px solid #3a546d;
 }
-/* ? ****** */
 
 .my-dark-blue{
     background-color: #3a546d;
 }
 
+/* ? ****** */
+
+/* ! Header  */
+.my-full-width-navbar-small{
+    width: 100%;
+}
 .my-header-title{
     font-size: 1rem;
 }
@@ -41,6 +46,7 @@
 }
 .my-user-svg{
     width:50%;
+    margin-bottom: 1rem;
 }
 
 
