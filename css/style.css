@@ -1,5 +1,30 @@
+
+/* ? star line */
+.bi-star-fill{
+    font-size: 1.8rem;
+}
+
+.my-star-line-white{
+    width: 80px;
+    border-bottom: 3px solid white;
+}
+
+.my-white-star{
+    color: white;
+}
+
+.my-blue-star{
+    color:#3a546d;
+}
+
+.my-star-line-blue{
+    width: 80px;
+    border-bottom: 3px solid #3a546d;
+}
+/* ? ****** */
+
 .my-dark-blue{
-    background-color: #3a546d
+    background-color: #3a546d;
 }
 
 .my-header-title{
@@ -18,12 +43,7 @@
     width:50%;
 }
 
-/* ? star line */
-.my-star-line{
-    width: 80px;
-    border-bottom: 3px solid #2c3e50;
-}
-/* ? ****** */
+
 
 
 /* ! portfolio */
