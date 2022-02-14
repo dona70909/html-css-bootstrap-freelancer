@@ -1,4 +1,3 @@
-
 .my-dark-blue{
     background-color: #3a546d
 }
@@ -19,10 +18,12 @@
     width:50%;
 }
 
-.my-width{
+/* ? star line */
+.my-star-line{
     width: 80px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid #2c3e50;
 }
+/* ? ****** */
 
 
 /* ! portfolio */
@@ -63,19 +64,22 @@
 
 .contact form label{
     display: block;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .contact form input{
     border: none;
     display: block;
-    border-bottom: 2px solid rgb(19, 19, 20);
+    border-bottom: 2px solid #2c3e50;
     margin-bottom: 1rem;
 }
 
 .contact form textarea{
     margin-bottom: 2rem;
     border: none;
-    border-bottom: 2px solid rgb(19, 19, 20);
+    border-bottom: 2px solid #2c3e50;
 }
 
 .contact form input:focus-visible{
@@ -100,6 +104,7 @@
     border-radius: 10px;
     width: 60px;
     height: 40px;
+    color:white;
 }
 
 
