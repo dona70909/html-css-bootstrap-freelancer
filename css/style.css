@@ -44,8 +44,6 @@
 }
 
 
-
-
 /* ! portfolio */
 .portfolio{
     padding-top: 1rem;
@@ -129,13 +127,34 @@
 
 
 /* ! Footer */
+.my-footer{
+    color: white;
+}
 
 .my-footer-top{
     background-color:#3a546d ;
 }
 
+.my-footer-top p{
+    font-size: 1.2rem;
+}
+
+.my-footer-top-social .bi{
+    font-size: 1.4rem;
+}
+
 .my-footer-bottom{
     background-color:rgb(44, 62, 80);
-    line-height: 35px;
+    font-size: 1rem;
 }
+
+.my-footer-word{
+    color: #1abc9c;
+}
+
+.my-footer h5{
+    font-weight: 600;
+}
+
+
 
