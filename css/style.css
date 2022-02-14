@@ -45,7 +45,7 @@
     background-color:#1abc9c ;
 }
 .my-user-svg{
-    width:50%;
+    width:25%;
     margin-bottom: 1rem;
 }
 
@@ -78,7 +78,8 @@
 
 /* ! section about */
 .my-margin{
-    margin: 0 20px;
+   /*  margin: 0 20px; */
+   px-2 px-md-6 px-lg-10
 }
 
 .my-outline-btn{
