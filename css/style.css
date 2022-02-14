@@ -51,6 +51,15 @@
     height: 300px;
 }
 
+/* ! section about */
+.my-margin{
+    margin: 0 20px;
+}
+
+.my-outline-btn{
+    border: 1px solid white;
+}
+
 /* ! Footer */
 
 .my-footer-top{
