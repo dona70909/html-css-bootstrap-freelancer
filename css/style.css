@@ -1,6 +1,3 @@
-header{
-
-}
 
 .my-dark-blue{
     background-color: #3a546d
@@ -8,19 +5,12 @@ header{
 
 .my-header-title{
     font-size: 1rem;
+}
+
+.my-navbar{
     font-weight: 900;
-}
-
-
-.my-hd-link{
-    color: white;
-    text-decoration: none;
-}
-
-.my-hd-link:hover{
     color: white;
 }
-
 /* ! jumbotron */
 .jumbotron{
     background-color:#1abc9c ;
