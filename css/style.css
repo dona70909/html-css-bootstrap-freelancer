@@ -59,6 +59,49 @@
 .my-outline-btn{
     border: 1px solid white;
 }
+/* !section contact */
+
+.contact form label{
+    display: block;
+}
+
+.contact form input{
+    border: none;
+    display: block;
+    border-bottom: 2px solid rgb(19, 19, 20);
+    margin-bottom: 1rem;
+}
+
+.contact form textarea{
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 2px solid rgb(19, 19, 20);
+}
+
+.contact form input:focus-visible{
+    outline-style: none;
+}
+
+.contact form textarea:focus-visible{
+    outline-style: none;
+}
+
+.my-input-size{
+    height: 1rem;
+    width: 350px;
+}
+
+.my-text-area{
+    width: 350px;
+}
+
+.my-submit-btn{
+    background-color: #1abc9c;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+}
+
 
 /* ! Footer */
 
