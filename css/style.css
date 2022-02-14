@@ -51,4 +51,14 @@
     height: 300px;
 }
 
+/* ! Footer */
+
+.my-footer-top{
+    background-color:#3a546d ;
+}
+
+.my-footer-bottom{
+    background-color:rgb(44, 62, 80);
+    line-height: 35px;
+}
 
