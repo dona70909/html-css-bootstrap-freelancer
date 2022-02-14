@@ -16,21 +16,44 @@
 </head>
 <body>
     <header class="my-dark-blue">
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <!-- header left -->
-                <div class="col-11 col-sm-5 col-lg-4">
-                    <h1 class="text-uppercase my-header-title">Start Bootstrap</h1>
-                </div>
-
-                <!-- header right -->
-                <div class="col-1 col-sm-5 col-lg-4">
-                    <a class="my-hd-link" href="#"><i class="bi bi-list"></i></a>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
-
+    
     <!-- jumbotron green -->
     <section class="jumbotron py-4 px-2 px-md-6 px-lg-8">
         <div class="container container-md container-lg">
@@ -54,7 +77,7 @@
             </div>
         </div>
     </section>
-
+    
     <main>
         <!-- portfolio -->
         <section class="portfolio px-md-2 px-lg-4">
@@ -83,10 +106,10 @@
                     </div>
                 </div>
             </div>
-    
+            
         </section>
-
-
+        
+        
         <!-- About -->
         <section class="about py-4">
             <div class="container container-md container-lg">
@@ -99,14 +122,14 @@
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis debitis impedit commodi soluta, ab iste iure dolor repellat quidem velit earum voluptatibus reprehenderit vero illo quisquam hic. Voluptatem, dolore cupiditate?
                                 </p>
                             </div>
-
+                            
                             <div class="col-sm-5 col-lg-6">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos sed pariatur quam rem, quaerat nisi iure necessitatibus vel quidem perspiciatis esse tempore! Reprehenderit eveniet, quod ullam tempora voluptatibus dignissimos?
                                 </p>
                             </div>
                         </div>
-
+                        
                         <div class="row justify-content-center">
                             <div class="col-2">
                                 <button>ciao</button>
@@ -117,7 +140,7 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- contact me -->
         <section class="contact py-4">
             <div class="container container-md container-lg">
@@ -127,7 +150,7 @@
                             Contact me
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iste quos cum dolor tempore facere eos. Quia quos ipsum praesentium assumenda nisi nulla facilis voluptas possimus, dolor ut, modi provident. 
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illum voluptate adipisci quibusdam obcaecati praesentium debitis nam ut deleniti. Tenetur porro veniam repellat voluptates recusandae autem animi amet dicta ipsam!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illum voluptate adipisci quibusdam obcaecati praesentium debitis nam ut deleniti. Tenetur porro veniam repellat voluptates recusandae autem animi amet dicta ipsam!
                         </p>
                         <button>send</button>
                     </div>
@@ -135,7 +158,7 @@
             </div>
         </section>
     </main>
-
+    
     <footer class="my-dark-blue py-4">
         <div class="container container-md container-lg">
             <div class="row justify-content-center">
@@ -146,7 +169,7 @@
                     </p>
                 </div>
             </div>
-
+            
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-12 col-lg-12 text-center">
                     <p>ciao</p>
